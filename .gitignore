@@ -1,0 +1,21 @@
+# Carpetas y archivos de compilación
+bin/
+obj/
+*.exe
+*.o
+*.out
+
+# Archivos de Code::Blocks
+*.cbp
+*.depend
+*.layout
+
+# Archivos comprimidos
+*.zip
+
+# Salidas generadas por el programa y gráficas
+centroides_*.csv
+clusters_*.csv
+resultados_*.csv
+tiempos_vs_*.csv
+fig_*.png

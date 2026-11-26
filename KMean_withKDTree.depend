@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1795058136 source:c:\users\usuario\documents\eda\laboratorio 6\kmean_withkdtree\main.cpp
+	<iostream>
+	<sstream>
+	<string>
+	<stdlib.h>
+	<time.h>
+	<vector>
+	<fstream>
+	<cmath>
+	<algorithm>
+	<chrono>
+
