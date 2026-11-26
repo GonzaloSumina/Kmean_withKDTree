@@ -1,11 +1,17 @@
-# Carpetas y archivos de compilación
+# Binarios y archivos de compilación (C++)
 bin/
 obj/
+main
 *.exe
 *.o
 *.out
 
-# Archivos de Code::Blocks
+# Entorno virtual de Python
+.venv/
+venv/
+__pycache__/
+
+# Archivos de Code::Blocks (opcional, quita *.cbp si quieres subir el proyecto)
 *.cbp
 *.depend
 *.layout
@@ -13,9 +19,7 @@ obj/
 # Archivos comprimidos
 *.zip
 
-# Salidas generadas por el programa y gráficas
-centroides_*.csv
-clusters_*.csv
-resultados_*.csv
-tiempos_vs_*.csv
+# Archivos CSV y gráficas generadas por el programa (mantiene data2k.csv)
+*.csv
+!data2k.csv
 fig_*.png
